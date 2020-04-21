@@ -120,3 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+# ログイン成功時のリダイレクト先
+LOGIN_REDIRECT_URL = '/'
